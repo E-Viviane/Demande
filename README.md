@@ -9,7 +9,7 @@ API REST de dépôt et de suivi des demandes d'actes administratifs (acte de nai
 Prérequis : PHP 8.2+, Composer, MySQL.
 
 ```bash
-git clone <url-du-depot> && cd <dossier>
+git clone https://github.com/E-Viviane/Demande.git && cd Demande
 composer install
 cp .env.example .env
 php artisan key:generate
